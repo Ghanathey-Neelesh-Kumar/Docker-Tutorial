@@ -1,0 +1,14 @@
+## DOCKER REGISTRY
+A Docker registry is a storage and distribution system for Docker images. 
+It allows users to upload and download Docker images, as well as manage and organize them. 
+Docker registries can be public or private and are typically accessed via the Docker command line or a web interface.
+# Commands Related to Docker Registry
+docker login : docker login -u myusername -p mypassword
+docker logout : docker logout
+docker pull : docker pull myregistry/myimage:latest
+docker push : docker pull myregistry/myimage:latest
+docker registry ls myregistry : This command lists all the images in a registry.
+docker registry rm myregistry/myimage:latest : This command removes an image from a registry.
+
+
+
